@@ -1,3 +1,6 @@
+"""
+Various functions that are used throughout
+"""
 import numpy as np
 
 

@@ -1,3 +1,6 @@
+"""
+The "main" class, in the sense that it uses all the other classes to perform the MonteCarlo cycles.
+"""
 import numpy as np
 import copy
 import os

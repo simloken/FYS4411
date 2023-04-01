@@ -1,3 +1,6 @@
+"""
+Class which handles energies and drift for an interactive model.
+"""
 import os
 import sys
 import inspect

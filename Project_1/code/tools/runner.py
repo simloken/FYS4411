@@ -1,3 +1,7 @@
+"""
+A universal "backend" that handles inputs and and inputs them into classes to do numerical calculations.
+Contains both a non-parallelized and a parallelized function, although the parallelized one is somehow slower (?)
+"""
 import numpy as np
 import multiprocessing as mp
 

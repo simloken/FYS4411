@@ -1,3 +1,7 @@
+"""
+Data handling class. Only really used in the case of bootstrapping data to better gauge the error and variance.
+Also plots gradient descent convergence over iterations.
+"""
 import os
 import sys
 import inspect

@@ -1,3 +1,6 @@
+"""
+Below are a few select example runs for each of the different parts of the project
+"""
 import numpy as np
 from tools.runner import runner, runParallel
 from tools.data import Data
@@ -7,9 +10,6 @@ from classes.System import System
 import time
 import matplotlib.pyplot as plt
 
-"""
-Below are a few select example runs for each of the different parts of the project
-"""
 
 
 def part_b():
