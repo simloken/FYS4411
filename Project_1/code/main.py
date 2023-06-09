@@ -21,7 +21,7 @@ def part_b():
 #    for alpha in alphas:
     for i in range(1):
         alpha = 0.5
-        res = runner(1000, 10, 3, alpha, 0.01, impo=True, ana=False, write_to=False) 
+        res = runner(10000, 10, 3, alpha, 0.01, impo=True, ana=False, write_to=False) 
 #        res2 = runner(1000, 10, 3, alpha, 0.01, impo=True, ana=False, write_to=False) 
 #        res3 = runner(1000, 25, 3, alpha, 0.01, impo=False, ana=False, write_to=False) 
         store.append(res[:,1].sum()/(1000))
